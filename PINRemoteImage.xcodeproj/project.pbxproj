@@ -113,10 +113,8 @@
 		B5BB4024274DB69F0042AE1D /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5BB4022274DB69F0042AE1D /* Media.xcassets */; };
 		D93A340224182D46005EB15E /* TestAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D93A340124182D46005EB15E /* TestAnimatedImage.m */; };
 		D93A340324182D46005EB15E /* TestAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D93A340124182D46005EB15E /* TestAnimatedImage.m */; };
-		EC62107329CB5FC700432573 /* WebP.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC62107129CB5FA600432573 /* WebP.xcframework */; };
-		EC62107429CB5FC700432573 /* WebPDecoder.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC62107229CB5FA600432573 /* WebPDecoder.xcframework */; };
-		EC62107529CB5FC700432573 /* WebPDemux.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC62107029CB5FA600432573 /* WebPDemux.xcframework */; };
-		EC62107629CB5FC700432573 /* WebPMux.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC62106F29CB5FA600432573 /* WebPMux.xcframework */; };
+		EC62107F29CB629C00432573 /* WebPDecoder.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC62107B29CB628E00432573 /* WebPDecoder.xcframework */; };
+		EC62108029CB629C00432573 /* WebPDemux.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC62107C29CB628E00432573 /* WebPDemux.xcframework */; };
 		F1B918FF1BCF23C900710963 /* PINRemoteImageCategoryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B918DC1BCF23C800710963 /* PINRemoteImageCategoryManager.m */; };
 		F1B919011BCF23C900710963 /* NSData+ImageDetectors.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B918DF1BCF23C800710963 /* NSData+ImageDetectors.m */; };
 		F1B9190F1BCF23C900710963 /* PINProgressiveImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B918EE1BCF23C800710963 /* PINProgressiveImage.m */; };
@@ -275,10 +273,10 @@
 		B5BB4022274DB69F0042AE1D /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		D93A340024182D46005EB15E /* TestAnimatedImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAnimatedImage.h; sourceTree = "<group>"; };
 		D93A340124182D46005EB15E /* TestAnimatedImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAnimatedImage.m; sourceTree = "<group>"; };
-		EC62106F29CB5FA600432573 /* WebPMux.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WebPMux.xcframework; path = ../../../Downloads/Carthage/WebPMux.xcframework; sourceTree = "<group>"; };
-		EC62107029CB5FA600432573 /* WebPDemux.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WebPDemux.xcframework; path = ../../../Downloads/Carthage/WebPDemux.xcframework; sourceTree = "<group>"; };
-		EC62107129CB5FA600432573 /* WebP.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WebP.xcframework; path = ../../../Downloads/Carthage/WebP.xcframework; sourceTree = "<group>"; };
-		EC62107229CB5FA600432573 /* WebPDecoder.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WebPDecoder.xcframework; path = ../../../Downloads/Carthage/WebPDecoder.xcframework; sourceTree = "<group>"; };
+		EC62107B29CB628E00432573 /* WebPDecoder.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WebPDecoder.xcframework; path = webp/WebPDecoder.xcframework; sourceTree = "<group>"; };
+		EC62107C29CB628E00432573 /* WebPDemux.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WebPDemux.xcframework; path = webp/WebPDemux.xcframework; sourceTree = "<group>"; };
+		EC62107D29CB628E00432573 /* WebP.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WebP.xcframework; path = webp/WebP.xcframework; sourceTree = "<group>"; };
+		EC62107E29CB628E00432573 /* WebPMux.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WebPMux.xcframework; path = webp/WebPMux.xcframework; sourceTree = "<group>"; };
 		F1B918D11BCF239200710963 /* PINRemoteImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PINRemoteImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B918D61BCF239200710963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1B918DC1BCF23C800710963 /* PINRemoteImageCategoryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PINRemoteImageCategoryManager.m; sourceTree = "<group>"; };
@@ -350,10 +348,8 @@
 			files = (
 				68837709252F9D5300B9C290 /* PINOperation.framework in Frameworks */,
 				68837707252F9D5300B9C290 /* PINCache.framework in Frameworks */,
-				EC62107329CB5FC700432573 /* WebP.xcframework in Frameworks */,
-				EC62107429CB5FC700432573 /* WebPDecoder.xcframework in Frameworks */,
-				EC62107529CB5FC700432573 /* WebPDemux.xcframework in Frameworks */,
-				EC62107629CB5FC700432573 /* WebPMux.xcframework in Frameworks */,
+				EC62107F29CB629C00432573 /* WebPDecoder.xcframework in Frameworks */,
+				EC62108029CB629C00432573 /* WebPDemux.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,10 +359,10 @@
 		6818C1531E551B5900875DB7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EC62107129CB5FA600432573 /* WebP.xcframework */,
-				EC62107229CB5FA600432573 /* WebPDecoder.xcframework */,
-				EC62107029CB5FA600432573 /* WebPDemux.xcframework */,
-				EC62106F29CB5FA600432573 /* WebPMux.xcframework */,
+				EC62107D29CB628E00432573 /* WebP.xcframework */,
+				EC62107B29CB628E00432573 /* WebPDecoder.xcframework */,
+				EC62107C29CB628E00432573 /* WebPDemux.xcframework */,
+				EC62107E29CB628E00432573 /* WebPMux.xcframework */,
 				6883770A252F9D7800B9C290 /* PINCache.framework */,
 				6883770C252F9D7800B9C290 /* PINOperation.framework */,
 				68837706252F9D5300B9C290 /* PINCache.framework */,
